@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+      
+    
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="apple-itunes-app" content="app-id=1475674905">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+      
+      <style>
+input {
+    width: 100%;
+    ;}
+</style>
+    
+    <title>
+      SSL-VPN Portal 
+    </title>
+    
+  </head>
+  
+  <body>
+    
+    <div class="container-fluid">
+      
+      <div class="row">
+        
+        <div class="col-sm-12">
+          
+          <div class="jumbotron jumbotron-fluid" style="background-color: #0e28e2; margin-top: 1%;">
+            
+            <div class="container">
+              
+              <h1 class="display-4 text-white" style="font-family: Poppins;">
+                SSL-VPN Portal
+              </h1>
+              
+              <p class="lead text-white" style="font-family: Lato;">
+                Your slogan
+              </p>
+              
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+        
+        
+        
+
+        
+        
+      
+      <div class="row">
+        
+        <div class="col-sm-4">
+          
+          <div class="card mb-3">
+            
+            <img class="card-img-top" src="" alt="web portal login">
+            
+            <div class="card-body">
+              
+              <h5 class="card-title">
+                Access the web portal
+              </h5>
+              
+              <p class="card-text">
+                Portal-mode is used for direct access to basic services and protocols such as SMB, HTTPS, RDP, FTP, etc.
+              </p>
+              
+              <p class="card-text">
+                Please authenticate:
+              </p>
+              
+              <p class="card-text">
+                %%SSL_LOGIN%%
+              </p>
+              
+              <form class="prompt" action="%%SSL_ACT%%" method="%%SSL_METHOD%%" name="f" autocomplete="off">
+              </form>
+              
+              <button type="button" class="btn btn-primary" onClick="try_login()" style="background-color: #0e28e2;">
+                Login
+              </button>
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="col-sm-4">
+          
+          <div class="card mb-3">
+            
+            <img class="card-img-top" src="" alt="web portal login">
+            
+            <div class="card-body">
+              
+              <h5 class="card-title">
+                Go tunnel-mode!
+              </h5>
+              
+              <p class="card-text">
+                Tunnel mode through FortiClient is used to establish a secure direct connection between your workstation and company internal network.
+              </p>
+              
+                
+                
+                           <button type="button" class="btn btn-danger" onClick="launchFortiClient()" style="background-color: #ee2622;">
+                Launch FortiClient
+              </button><br>
+              <small>
+                or Download for:
+              </small>
+                <br>
+
+<small> <a class="" href="https://filestore.fortinet.com/forticlient/downloads/FortiClientOnlineInstaller_6.0.exe">Microsoft Windows</a>,
+    <a class="" href="https://filestore.fortinet.com/forticlient/downloads/FortiClientOnlineInstaller_6.0.dmg">MacOS</a>,
+    <a class="" href="https://www.forticlient.com/repoinfo" target="_blank">Linux</a>,
+          <a class="" href="http://itunes.apple.com/md/app/forticlient/id525600370?mt=8" target="_blank">iOS</a>,
+          <a class="" href="https://play.google.com/store/apps/details?id=com.fortinet.forticlient" target="_blank">Android</a>,
+                <a class="" href="https://www.microsoft.com/en-ca/store/p/forticlient/9wzdncrdh6mc" target="_blank">Windows 10 App</a>,
+          <a class="" href="https://chrome.google.com/webstore/detail/forticlient-chromebook-we/igbgpehnbmhgdgjbhkkpedommgmfbeao" target="_blank">Chromebook</a></small>
+                
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="col-sm-4">
+          
+          <div class="card mb-3">
+            
+            <img class="card-img-top" src="" alt="web portal login">
+            
+            <div class="card-body">
+              
+              <h5 class="card-title">
+                Technical Support
+              </h5>
+              
+              <p class="card-text">
+                In case of technical problems, authentication or reachability errors, suspicious or unauthorized events please contact [YOUR_TEAM_NAME] immediately:
+              </p>
+              
+              <p class="card-text">
+                
+                <div class="alert alert-dark" role="alert" >
+                  it@yourdomain.com
+                </div>
+                <div class="alert alert-dark" role="alert" >
+                  security@yourdomain.com
+                </div>
+              </p>
+              
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    
+
+    
+  </body>
+  %%SSL_HIDDEN%%
+</html>
